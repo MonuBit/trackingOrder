@@ -142,7 +142,7 @@ body {
 
 .trackmargin {
   margin-left: 220px;
-  margin-top: -50px;
+  margin-top: -30px;
   width: 50%;
 }
 
@@ -154,6 +154,10 @@ body {
     margin-top: vh
 
 
+}
+
+.btn-outline-primary{
+  margin-top: -30%;
 }
 
 
@@ -268,7 +272,19 @@ body {
 
 @media (max-width:1200px ){
 
-  
+
+  .card {
+      margin: auto;
+      width: 60%;
+      max-width: 900px;
+      padding: 4vh 0;
+      box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-top: 3px solid rgb(252, 103, 49);
+      border-bottom: 3px solid rgb(252, 103, 49);
+      border-left: none;
+      border-right: none
+  }
+
   #datebox {
     width:100%;
 
@@ -391,16 +407,20 @@ body {
   }
 
   .trackmargin {
-    margin-left: 190px;
+    margin-left: 240px;
     width: 50%;
+    margin-top: 2%;
   }
 
   .pricing {
     font-size: 50%;
+
   }
 
   .btn-outline-primary {
     font-size: 100%;
+    margin-top: -30%;
+
   }
 
   #RecentOrder {
