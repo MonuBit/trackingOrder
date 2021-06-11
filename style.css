@@ -293,20 +293,23 @@ body {
   #datebox {
     width:100%;
 
-    font-size: 100%;
+    font-size: 150%;
     padding-bottom: 20px;
   }
 
 
 .orderbox {
-  font-size: 100%;
+  font-size: 150%;
   margin-left: 2%;
 }
 
 #arriveby{
-  font-size: 200%;
+  font-size: 300%;
 }
 
+#name{
+  font-size: 200%;
+}
 
 
 
@@ -412,19 +415,19 @@ body {
   }
 
   .trackmargin {
-    margin-left: 240px;
+    margin-left: 400px;
     width: 50%;
     margin-top: 2%;
   }
 
   .pricing {
-    font-size: 50%;
+    font-size: 100%;
 
   }
 
   .btn-outline-primary {
-    font-size: 100%;
-    margin-top: -10%;
+    font-size: 150%;
+    margin-top: -30%;
 
   }
 
@@ -434,7 +437,7 @@ body {
     margin-top: -24px;
     margin-bottom: 10px;
     padding: 0% 8%;
-    font-size: 100%;
+    font-size: 200%;
     font-family: 'Montserrat', sans-serif;
   }
 
